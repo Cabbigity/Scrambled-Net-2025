@@ -44,38 +44,6 @@ This is a fully modernized version of the classic NetScramble Android game, orig
 - Java JDK 11 or higher
 - Internet connection for downloading dependencies
 
-### ✅ Build Steps
-1. Clean up old Eclipse modules first (recommended):
-   ```
-   cleanup-old-modules.bat
-   ```
-2. Build using Gradle:
-   ```
-   ./gradlew assembleDebug
-   ```
-   Or use the provided script:
-   ```
-   build-and-run.bat
-   ```
-
-**Result**: APK created at `app/build/outputs/apk/debug/app-debug.apk`
-
-## Quick Testing
-
-**Option 1: Using Android Studio**
-1. Run `cleanup-old-modules.bat` first  
-2. Open the project folder in Android Studio
-3. Wait for Gradle sync to complete
-4. Click the Run button (▶️) or press Shift+F10
-
-**Option 2: Command Line**
-1. Run `build-and-run.bat`
-2. Install APK: `adb install app/build/outputs/apk/debug/app-debug.apk`
-
-**Option 3: Build and Copy APK**
-1. Run: `gradle assembleDebug`
-2. Copy `app\build\outputs\apk\debug\app-debug.apk` to your Android device
-3. Install manually from device file manager
 
 ## Game Features
 
