@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TouchListView custom attributes -->
+    <declare-styleable name="TouchListView">
+        <attr name="normal_height" format="dimension" />
+        <attr name="expanded_height" format="dimension" />
+        <attr name="grabber" format="reference" />
+        <attr name="dragndrop_background" format="color" />
+        <attr name="remove_mode" format="integer" />
+    </declare-styleable>
+</resources>

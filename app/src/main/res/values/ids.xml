@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TouchListView IDs -->
+    <item name="list_grabber" type="id" />
+    
+    <!-- NumberPicker and TimeoutPicker IDs -->
+    <item name="increment" type="id" />
+    <item name="decrement" type="id" />
+    <item name="timepicker_input" type="id" />
+    <item name="hour" type="id" />
+    <item name="minute" type="id" />
+    <item name="second" type="id" />
+    <item name="timeoutPicker" type="id" />
+</resources>
