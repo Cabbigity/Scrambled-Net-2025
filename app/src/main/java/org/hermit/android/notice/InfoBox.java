@@ -125,14 +125,15 @@ public class InfoBox
         // avoid all the text blacking out on click.
         textView = new TextView(parentApp);
     	textView.setTextSize(16);
-    	textView.setTextColor(0xffffffff);
+    	// Use theme-appropriate text color instead of hardcoded white
+    	textView.setTextColor(0xff000000); // Black text for better visibility
     	textView.setAutoLinkMask(Linkify.WEB_URLS);
     	textView.setLayoutParams(new LinearLayout.LayoutParams(FPAR, FPAR));
     	tscroll.addView(textView);
 
         // Add a layout to hold the buttons.
     	buttonHolder = new LinearLayout(parentApp);
-    	buttonHolder.setBackgroundColor(0xf08080);
+    	buttonHolder.setBackgroundColor(0xffe0e0e0); // Light gray background
     	buttonHolder.setOrientation(LinearLayout.HORIZONTAL);
     	buttonHolder.setPadding(6, 3, 3, 3);
         layout.addView(buttonHolder,
