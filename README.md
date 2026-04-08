@@ -53,8 +53,8 @@ This is a fully modernized version of the classic NetScramble Android game, orig
 
 ## Original Authors
 
-- © 2007-2010 Ian Cameron Smith <johantheghost@yahoo.com>
-- © 2014 Michael Mueller <michael.mueller@silentservices.de>
+- © 2007-2010 Ian Cameron Smith
+- © 2014 Michael Mueller
 - 2025 Modernization update
 
 ## License
